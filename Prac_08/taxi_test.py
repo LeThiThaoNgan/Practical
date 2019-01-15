@@ -1,6 +1,7 @@
 
-from prac_06.taxi import Taxi
-from prac_06.car import Car
+from Prac_08.taxi import Taxi
+from Prac_08.car import Car
+
 
 def main():
     taxi1 = Taxi("Prius 1", 100, 1.23)
@@ -13,4 +14,6 @@ def main():
     print(taxi1)
     print("The current fare is ${}".format(taxi1.get_fare()))
 
+
 main()
+

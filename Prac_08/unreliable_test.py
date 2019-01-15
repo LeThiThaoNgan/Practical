@@ -1,4 +1,4 @@
-from prac_06.unreliable import UnreliableCar
+from Prac_08.unreliable import UnreliableCar
 
 def main():
     good_car = UnreliableCar("Mostly good", 100, 90)

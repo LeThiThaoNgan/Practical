@@ -1,4 +1,4 @@
-from prac_06.car import Car
+from Prac_08.car import Car
 
 
 class Taxi(Car):
@@ -20,3 +20,4 @@ class Taxi(Car):
         distance_driven = super().drive(distance)
         self.current_fare_distance += distance_driven
         return distance_driven
+
